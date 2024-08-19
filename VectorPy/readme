@@ -1,1 +1,23 @@
+Stwórz klasę Vector, reprezentującą
+obiekt wektora matematycznego.
 
+Klasa ta powinna zostać
+
+zaimplementowana w taki sposób,
+żeby na jej obiektach możliwe było
+wykonanie działania dodawania
+wektorów za pomocą operatora +
+oraz mnożenia skalarnego
+wektorów, za pomocą operatora *.
+
+v1 = Vector([1, 2, 1, 5])
+v2 = Vector([2, 3, 1, 4])
+
+# [1+2, 2+3, 1+1, 5+4]
+v3 = v1 + v2
+v3.get_vals()
+[3, 5, 2, 9]
+
+# 1*2 + 2*3 + 1*1 + 5*4
+v1 * v2
+29
