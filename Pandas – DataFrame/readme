@@ -1,4 +1,4 @@
-Zadanie 3 (Pandas – DataFrame)
+(Pandas – DataFrame)
 Plik stores data-set.csv zawiera informacje o sklepach pewnej sieci handlowej, natomiast plik sales data-set.csv informacje o
 tygodniowej sprzedaży w każdym z tych sklepów.Wykonaj na tych danych następujące zadania.
 1. Wczytaj zawartość obu plików do obiektów typu DataFrame za pomocą funkcji pd.read_csv.
