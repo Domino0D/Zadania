@@ -1,0 +1,19 @@
+(NumPy)
+Plik points.txt zawiera punkty, przyznane studentom w ramach jednego z przedmiotów, na który uczęszczali.
+• Pojedynczy wiersz danych zawiera informacje dotyczące jednego studenta.
+• Pojedyncza kolumna danych zawiera informacje dotyczące konkretnej aktywności, która była oceniana.
+• Pierwsze pięć kolumn dotyczy obecności na zajęciach.
+• Kolejne cztery kolumny odnoszą się do oddanych prac domowych.
+Plik marks.txt zawiera informacje o sposobie oceniania studentów.
+• Wiersze danych reprezentują liczbę punktów uzyskanych z obecności (od 0 do 5).
+• Kolumny danych reprezentują liczbę punktów uzyskanych z prac domowych (od 0 do 8).
+
+Wykonaj na opisanych danych następujące czynności.
+1. Wczytaj dane wykorzystując funkcję np.loadtxt.
+2. Ustal ilu studentów brało udział w zajęciach.
+3. Oblicz średnią liczbę punktów, które studenci uzyskali w ramach każdej z aktywności.
+4. Sprawdź jaką liczbę punktów uzyskał najlepszy student.
+5. Sprawdź, którzy studenci okazali się być najlepsi.
+6. Wyznacz oceny dla wszystkich studentów.
+7. Ustal ilu studentów zdobyło ocenę 5. Jaki to procent wszystkich studentów?
+8. Ustal ilu studentów zdobyło ocenę nie mniejszą niż 4. Jaki to procent wszystkich studentów?
