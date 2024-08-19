@@ -1,0 +1,23 @@
+Zadanie 3 (Pandas – DataFrame)
+Plik stores data-set.csv zawiera informacje o sklepach pewnej sieci handlowej, natomiast plik sales data-set.csv informacje o
+tygodniowej sprzedaży w każdym z tych sklepów.Wykonaj na tych danych następujące zadania.
+1. Wczytaj zawartość obu plików do obiektów typu DataFrame za pomocą funkcji pd.read_csv.
+2. Ustal ile sklepów danego typu (kolumna Type) posiada analizowana sieć handlowa.
+3. Zbadaj jakiego rozmiaru (kolumna Size) są analizowane sklepy, wyznaczając dla nich następujące statystyki: średnia,
+minimum, maksimum, mediana, percentyle 25% i 75%.
+4. Powtórz powyższe zadanie w podgrupach wyznaczonych przez typ sklepu.
+5. Przekształć kolumnę Date do postaci YYYY-MM-DD oraz utwórz na jej podstawie dwie dodatkowe kolumny: kolumnę Year,
+zawierającą rok obserwacji, kolumnę Month, zawierającą miesiąc obserwacji.
+6. Ustal ile sklepów prowadziło sprzedaż w każdym miesiącu każdego roku dostępnego w próbce danych sprzedażowych.
+7. Ustal dla każdego roku obserwacji, średni poziom tygodniowej sprzedaży sklepu sieci (kolumna Weekly_Sales).
+8. Sprawdź czy średnia tygodniowa sprzedaż sklepu zależy od występowania święta w danym tygodniu (kolumna IsHoliday).
+9. Sprawdź czy średnia tygodniowa sprzedaż sklepu charakteryzuje się sezonowością roczną. Inaczej: czy w ciągu roku występują
+miesiące charakteryzujące się wyraźnie wyższą (niższą) sprzedażą od pozostałych oraz czy w kolejnych latach są to zazwyczaj te
+same miesiące?
+10. Dla każdej obserwacji ze zbioru zawierającego informacje o sprzedaży, ustal wartość wskaźnika tygodniowej sprzedaży
+przypadającej na jednostkę powierzchni sklepu: Weekly_Sales / Size.
+11. Ustal dla roku 2012, który sklep charakteryzował się najniższą, a który najwyższą średnią tygodniową sprzedażą.
+12. Ustal dla roku 2012, który sklep charakteryzował się najniższą, a który najwyższą średnią tygodniową sprzedażą przypadającą na
+jednostkę powierzchni sklepu.
+13. Ustal dla każdego roku oraz każdego typu sklepu: średni poziom tygodniowej sprzedaży sklepu oraz średni poziom tygodniowej
+sprzedaży sklepu przypadający na jednostkę powierzchni sklepu.
