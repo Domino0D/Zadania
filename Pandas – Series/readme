@@ -1,0 +1,18 @@
+(Pandas – Series)
+Plik gc.txt zawiera historyczne ceny uncji trojańskiej złota wyrażone w dolarach, natomiast plik si.txt
+zawiera historyczne ceny uncji trojańskiej srebra wyrażone w dolarach.
+
+Wykonaj na opisanych danych następujące czynności.
+1. Wczytaj obie serie danych do obiektów typu Series za pomocą funkcji pd.read_csv.
+2. Nadaj stosowną nazwę każdej z serii danych. Nadaj indeksom w obu seriach danych nazwę
+date.
+3. Ogranicz obie serie danych do lat 2020 – 2022.
+4. Przekształć obie serie tak, żeby reprezentowały cenę jednego grama metalu wyrażoną w
+dolarach.
+5. Ustal przez ile dni, relacja ceny jednego grama złota do ceny jednego grama srebra przekraczała
+100. Jaki to procent wszystkich dni obserwacji?
+6. Sprawdź jakie ceny złota i srebra odnotowano w pierwszych dniach każdego miesiąca.
+7. Ustal dla każdego z analizowanych metali szlachetnych, którego dnia grudnia 2021 roku
+odnotowano najwyższy przyrost ceny dzień do dnia.
+8. Ustal dla każdego z analizowanych metali szlachetnych, którego dnia grudnia 2021 roku
+odnotowano najwyższy procentowy przyrost ceny dzień do dnia.
